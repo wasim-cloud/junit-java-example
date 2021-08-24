@@ -17,16 +17,6 @@ public class Calculator implements ICalculator {
 		return a * b;
 	}
 	
-        @Override
-	public int sum(int a, int b) { /* Added duplicate functions i.e repated the same function twice*/
-		return a + b;
-	}
-	
-	@Override
-	public int sum(int a, int b) { 
-		return a + b;
-	}
-	
 	@Override
 	public int divison(int a, int b) throws Exception {
 		if (b == 0) {
