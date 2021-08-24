@@ -3,12 +3,12 @@ package com.javacodegeeks.examples.junitmavenexample;
 public class Calculator implements ICalculator {
 
 	@Override
-	public int sum(int a, int b) {
+	public int sum(int a, int b, int c) { /*added c*/
 		return a + b;
 	}
 
 	@Override
-	public int subtraction(int a, int b) {
+	public int subtraction(int a, int b, int d) { /*added d*/
 		return a - b;
 	}
 
@@ -34,9 +34,9 @@ public class Calculator implements ICalculator {
 			result = true;
 		}
 
-		/*return result*/;
-		return null;  /* commneted the above line and added 3 lines random value and datatype */
-		return int;
-		return float;
+		return result;
+		/*return null;  /* commneted the above line and added 3 lines random value and datatype */
+		/*return int;*/
+		/*return float;*/
 	}
 }
