@@ -3,12 +3,12 @@ package com.javacodegeeks.examples.junitmavenexample;
 public class Calculator implements ICalculator {
 
 	@Override
-	public int sum(int a, int b, int c) { /*added c*/
+	public int sum(int a, int b) { 
 		return a + b;
 	}
 
 	@Override
-	public int subtraction(int a, int b, int d) { /*added d*/
+	public int subtraction(int a, int b) { /*added d*/
 		return a - b;
 	}
 
