@@ -34,6 +34,9 @@ public class Calculator implements ICalculator {
 			result = true;
 		}
 
-		return result;
+		/*return result*/;
+		return null;  /* commneted the above line and added 3 lines random value and datatype */
+		return int;
+		return float;
 	}
 }
